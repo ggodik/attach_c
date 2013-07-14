@@ -6,7 +6,8 @@ setup(name='attach_c',
       description='attach_c command for gdb',
       author='George Godik',
       author_email='ggodik@gmail.com',
-      py_modules=['choose','setup'],
-      packages=['tests'],
-      test_suite='tests'
+      py_modules=['setup'],
+      packages=['tests','attach_c'],
+      test_suite='tests',
+      install_requires=['psutil']
       )

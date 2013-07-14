@@ -1,5 +1,5 @@
 import unittest
-from choose import get_processes
+from attach_c import get_processes
 import getpass
 
 class Test( unittest.TestCase):
