@@ -5,5 +5,5 @@ class Test( unittest.TestCase):
     def tearDown(self): pass
 
     def test_instantiate(self):
-        from attach_c import Attach_C
-#        ac = Attach_C()
+        from attach_c.command import Attach_C
+        ac = Attach_C()
