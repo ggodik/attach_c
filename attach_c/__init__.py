@@ -1,6 +1,10 @@
 import psutil
 import getpass
-#from command import Attach_C
+
+
+def command():
+    from attach_c import Attach_C
+    Attach_C()
 
 def get_processes(user,keyword):
     ndx = 0

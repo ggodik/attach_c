@@ -1,13 +1,5 @@
 import getpass
 
-def get_gdb():
-    module = __import__('tests.mock_gdb',globals(),locals(),[],-1)
-    try:
-        module = __import__('gdb',globals(),locals(),[],-1)
-    except ImportError,e :
-        pass
-    return module.mock_gdb
-
 try:
     import gdb
 except:

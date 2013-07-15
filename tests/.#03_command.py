@@ -1,0 +1,1 @@
+ggodik@fxdeva11.factset.com.32445:1373724398
