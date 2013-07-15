@@ -7,3 +7,6 @@ class Test( unittest.TestCase):
     def test_instantiate(self):
         from attach_c.command import Attach_C
         ac = Attach_C()
+
+    def test_invoke(self):
+        pass
