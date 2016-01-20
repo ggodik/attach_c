@@ -6,7 +6,7 @@ def get_processes(user,keyword):
     procs = []
     for proc in psutil.process_iter():
         try:
-            if user == proc.username and proc.exe.find(keyword) > -1:
+            if user == proc.username() and proc.name().find(keyword) > -1:
                 print '[%s]' % ndx, proc.pid, proc.username, proc.exe
                 ndx += 1
                 procs.append(proc)

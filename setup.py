@@ -9,5 +9,5 @@ setup(name='attach_c',
       py_modules=['setup'],
       packages=['tests','attach_c'],
       test_suite='tests',
-      install_requires=['psutil']
+      install_requires=['psutil==3.0.1']
       )
